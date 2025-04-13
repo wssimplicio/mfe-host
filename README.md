@@ -110,7 +110,7 @@ export const routes: Routes = [
 ];
 ```
 
-5. Executando os projetos
+### 5. Executando os projetos
  - Em dois terminais separados, execute:
 
 ```bash
