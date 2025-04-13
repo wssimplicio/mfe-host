@@ -45,6 +45,12 @@ ng serve
 docker compose up
 ```
 
+### ⚠️ Atenção !
+ Caso faça alguma alteração nos componentes é necessario rebuildar o projeto se caso subir com Docker:
+ ```bash
+docker compose up --build
+```
+
 ## 🚀 Passo a passo para criação do zero
 ### 1. Criação dos projetos
 Crie dois projetos Angular:
