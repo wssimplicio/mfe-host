@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  host-app:
+    container_name: mfe-host
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4200:4200"
+    networks:
+      - mfehost-net
+    restart: always
+
+networks:
+  mfehost-net:
+    driver: bridge
+

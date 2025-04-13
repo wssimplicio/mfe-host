@@ -1,0 +1,20 @@
+.cep-card {
+  border-top: 4px solid #4299e1;
+}
+
+.cep-icon {
+  color: #4299e1;
+}
+
+.holiday-card {
+  border-top: 4px solid #ed8936;
+}
+
+.holiday-icon {
+  color: #ed8936;
+}
+
+.card-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
