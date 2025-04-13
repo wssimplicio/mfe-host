@@ -53,11 +53,11 @@ Crie dois projetos Angular:
 
  - remote-app: será o Remote
 
- - Use portas diferentes para evitar conflitos, por exemplo:
+- Use portas diferentes para evitar conflitos, por exemplo:
 
- - host-app → http://localhost:4200
+   - host-app → http://localhost:4200
 
- - remote-app → http://localhost:4201
+   - remote-app → http://localhost:4201
 
 ### 2. Instalação do Native Federation
 No terminal, dentro de cada projeto, execute:
